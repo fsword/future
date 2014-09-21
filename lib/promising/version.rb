@@ -1,3 +1,3 @@
-class Future
+module Promising
   VERSION = "0.3.1"
 end

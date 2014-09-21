@@ -1,10 +1,9 @@
 $:.unshift(File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib')))
 $:.unshift File.dirname(__FILE__)
 
-require 'future'
+require 'promising/future'
 require 'time'
 require 'shared'
-
 describe Future do
 
   before :each do
@@ -40,4 +39,3 @@ describe Future do
     expect(x + 5).to eq 10
   end
 end
-

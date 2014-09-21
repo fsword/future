@@ -105,7 +105,6 @@ class Promise < defined?(BasicObject) ? BasicObject : ::Object
     __force__.__send__(method, *args, &block)
   end
 end
-
 module Kernel
   ##
   # Creates a new promise.
@@ -119,6 +118,6 @@ module Kernel
   #   The return value of the block will be the lazily evaluated value of the promise.
   # @return      [Promise]
   def promise(timeout:nil,&block)
-    Promise.new(timeout:timeout,&block)
+    ::Promise.new(timeout:timeout,&block)
   end
 end
