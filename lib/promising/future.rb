@@ -49,19 +49,3 @@ module Promising
   end
 end
 
-module Kernel
-  ##
-  # Creates a new future.
-  #
-  # @example Evaluate an operation in another thread
-  #   x = future { 3 + 3 }
-  #
-  # @yield       []
-  #   A block to be optimistically evaluated in another thread.
-  # @yieldreturn [Object]
-  #   The return value of the block will be the evaluated value of the future.
-  # @return      [Future]
-  def future(timeout:nil, &block)
-    ::Promising::Future.new(timeout:timeout, &block)
-  end
-end
