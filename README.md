@@ -1,3 +1,7 @@
+# Notice
+
+This gem is come from [Promise](https://rubygems.org/gems/promise)
+
 # Promising Future
 A glimpse of a promising future in which Ruby supports lazy evaluation.
 
@@ -34,10 +38,10 @@ The library is distributed via [RubyGems](http://rubygems.org/):
     $ gem install promise
 
 ## Source
-The source is available at <http://github.com/bhuga/promising-future>
+The source is available at <http://github.com/fsword/future>
 
 ## Author
-[Ben Lavender](http://github.com/bhuga)
+[Fsword](http://github.com/fsword)
 
 ## Unlicense
 Promising Future is free and unencumbered public domain software. For more
