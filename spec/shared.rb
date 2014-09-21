@@ -1,5 +1,6 @@
 require 'rspec'
 require 'promising/promise'
+require 'promising/future'
 
 shared_examples_for "A Promise" do
 
