@@ -1,3 +1,3 @@
 class Future
-  VERSION = "0.0.1"
+  VERSION = "0.3.1"
 end

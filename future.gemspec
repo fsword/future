@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["fsword"]
   spec.email         = ["li.jianye@gmail.com"]
   spec.summary       = %q{A simple promise/future lib for ruby}
-  spec.description   = %q{Forking from bhuga/promising-future on github}
+  spec.description   = %q{Forking from bhuga/promising-future on github, so Version is started from 0.3.1}
   spec.homepage      = "https://github.com/fsword/future"
   spec.license       = "MIT"
 
