@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'version'
+require 'future/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "future"
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["li.jianye@gmail.com"]
   spec.summary       = %q{A simple promise/future lib for ruby}
   spec.description   = %q{Forking from bhuga/promising-future on github}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/fsword/future"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
