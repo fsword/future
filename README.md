@@ -1,6 +1,6 @@
 # Notice
 
-This gem is come from [Promise](https://rubygems.org/gems/promise)
+This gem is come from [Promising](https://rubygems.org/gems/promising)
 
 # Promising Future
 A glimpse of a promising future in which Ruby supports lazy evaluation.
@@ -10,7 +10,7 @@ A glimpse of a promising future in which Ruby supports lazy evaluation.
 Promises evaluate the given block if and when its result is first needed.
 Futures evaluate the given block optimistically in another thread.
 
-    require 'promise'
+    require 'promising'
     require 'future'    # you can just require 'future' if using both
     
     x = promise { 1 + 2 }
@@ -25,7 +25,7 @@ will eagerly evaluate everything as part of its read-eval-print loop,
 forcing promises and futures to yield their results.
 
 The library has been tested with Ruby 1.8.7, 1.9.1 and JRuby 1.5.0.
-YARD documentation is available at <http://promise.rubyforge.org/>
+YARD documentation is available at <http://promising.rubyforge.org/>
 
 ## Classes
 
@@ -35,7 +35,7 @@ YARD documentation is available at <http://promise.rubyforge.org/>
 ## Installation
 The library is distributed via [RubyGems](http://rubygems.org/):
 
-    $ gem install promise
+    $ gem install promising
 
 ## Source
 The source is available at <http://github.com/fsword/future>
