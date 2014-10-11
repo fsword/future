@@ -38,7 +38,7 @@ The library is distributed via [RubyGems](http://rubygems.org/):
     $ gem install promising
 
 ## Source
-The source is available at <http://github.com/fsword/future>
+The source is available at <http://github.com/fsword/promising>
 
 ## Author
 [Fsword](http://github.com/fsword)
